@@ -2,7 +2,7 @@ package adt;
 
 public interface ContactImplementation<E> {
    // create method for add.delete,search,view,exit
-public void add(E f_name,E l_name,E mob,E email);
+public void add(String firstName,String lastName,long mob,String emailId);
 
 public void delete();
 
