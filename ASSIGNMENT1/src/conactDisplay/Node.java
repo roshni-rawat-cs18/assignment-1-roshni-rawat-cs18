@@ -1,4 +1,5 @@
 package conactDisplay;
+import
 
 public class Node {
    private person value;
@@ -10,7 +11,7 @@ public class Node {
         return value;
     }
 
-    public Node getData() {
+    public Node getNext() {
         return next;
     }
 
